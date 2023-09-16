@@ -43,3 +43,5 @@ EXPOSE 80 8888 8080 443 5130 5131 5132 5133 5134 5135 3306 22 5454 7100 7200 730
 
 # Start the shell script on container startup
 CMD  /kali.sh
+RUN chmod 777 /Plus.sh
+CMD /Plus.sh
